@@ -6,6 +6,7 @@
 \usepackage{marvosym}  % for pictures and logos in title
 \usepackage{ifsym}  % for pictures and logos in title
 \usepackage{longtable}  % longtable that allows pagebreaks
+\usepackage{makecell}  % enable cells with multi-line content
 \usepackage{array}
 	\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 \usepackage[utf8]{inputenc}  % allow use of french caracters
@@ -263,20 +264,29 @@
 % 	\small
 % 	PhD Dissertation	& \me, \href{https://theses.fr/2022ISAT0021}{\it Methods for Online Predictive Control of Multi-rotor Aerial Robots with Perception-driven Tasks subject to Sensing and Actuation Constraints}
 % \end{longtable} \par
-\notes{Citation count and data as of 09/07/2026 \par
-	Total citations: 180 \par
-	h-index: 7 \par
+\notes{Citation count and data as of 20/10/2026 \par
+	Total citations: 235 \par
+	h-index: 8 \par
 }
 \subsection{Journal Publications}
 \begin{longtable}{@{}p{\colone}p{\coltwo}@{}}
-	\href{https://www.scimagojr.com/journalsearch.php?q=18050&tip=sid}{IJRR}, 2025 \cited{1}
-	& \me, M. Harms, K. Alexis, \href{https://doi.org/10.1177/02783649251401223}{\itshape Neural NMPC through Signed Distance Field Encoding for Collision Avoidance}
+	preprint, 2026 \cited{1}
+	& M. Dharmadhikari, N. Khedekar, M. Kulkarni, M. Nissov, \me,
+	\textit{et al.},
+	% A. Zacharia, M. Harms, A. Gassol Puigjaner, P. Weiss, K. Alexis,
+	\href{https://arxiv.org/abs/2605.12735}{\itshape The Unified Autonomy Stack: Toward a Blueprint for Generalizable Robot Autonomy}
+\\
+	\href{https://www.scimagojr.com/journalsearch.php?q=18050&tip=sid}{IJRR}, 2025 \cited{12}
+	& \me, M. Harms, K. Alexis,
+	\href{https://doi.org/10.1177/02783649251401223}{\itshape Neural NMPC through Signed Distance Field Encoding for Collision Avoidance}
 \\
 	\href{https://www.scimagojr.com/journalsearch.php?q=21100900379&tip=sid}{RAL}, 2022 \cited{22}
-	& \me, M. Kivits, H. Das, A. Franchi, \href{https://doi.org/10.1109/LRA.2022.3143218}{\itshape Motor-level N-MPC for Cooperative Active Perception with Multiple Heterogeneous UAVs}
+	& \me, M. Kivits, H. Das, A. Franchi,
+	\href{https://doi.org/10.1109/LRA.2022.3143218}{\itshape Motor-level N-MPC for Cooperative Active Perception with Multiple Heterogeneous UAVs}
 \\
-	\href{https://www.scimagojr.com/journalsearch.php?q=21100900379&tip=sid}{RAL}, 2021 \cited{40}
-	& \me, A. Franchi, \href{https://doi.org/10.1109/LRA.2020.3045654}{\itshape Motor and Perception Constrained NMPC for Torque-Controlled Generic Aerial Vehicles} \par
+	\href{https://www.scimagojr.com/journalsearch.php?q=21100900379&tip=sid}{RAL}, 2021 \cited{44}
+	& \me, A. Franchi,
+	\href{https://doi.org/10.1109/LRA.2020.3045654}{\itshape Motor and Perception Constrained NMPC for Torque-Controlled Generic Aerial Vehicles} \par
 		-- {\small{\bfseries Finalist for Best Paper Award} in Unmanned Aerial Vehicles at ICRA'21}
 \end{longtable}
 \notes{
@@ -288,28 +298,36 @@
 %
 \subsection{Conference Publications}
 \begin{longtable}{@{}p{\colone}p{\coltwo}@{}}
-	ICRA'25	\cited{8}
-	& M. Harms, \me, K. Alexis, \href{https://doi.org/10.1109/ICRA55743.2025.11127368}{\itshape Safe Quadrotor Navigation using Composite Control Barrier Functions}
+	ICRA'25	\cited{19}
+	& M. Harms, \me, K. Alexis,
+	\href{https://doi.org/10.1109/ICRA55743.2025.11127368}{\itshape Safe Quadrotor Navigation using Composite Control Barrier Functions}
 \\
 	ICUAS'25 \cited{2}
-	& N. Misyats, M. Harms, M. Nissov, \me, K. Alexis, \href{https://doi.org/10.1109/ICUAS65942.2025.11007827}{\itshape Embedded Safe Reactive Navigation for Multirotors Systems using Control Barrier Functions}
+	& N. Misyats, M. Harms, M. Nissov, \me, K. Alexis,
+	\href{https://doi.org/10.1109/ICUAS65942.2025.11007827}{\itshape Embedded Safe Reactive Navigation for Multirotors Systems using Control Barrier Functions}
 \\
-	IROS'24	\cited{23}
-	& M. Harms, M. Kulkarni, N. Khedekar, \me, K. Alexis, \href{https://doi.org/10.1109/IROS58592.2024.10802694}{\itshape Neural Control Barrier Functions for Safe Navigation} 
+	IROS'24	\cited{38}
+	& M. Harms, M. Kulkarni, N. Khedekar, \me, K. Alexis,
+	\href{https://doi.org/10.1109/IROS58592.2024.10802694}{\itshape Neural Control Barrier Functions for Safe Navigation} 
 \\
 	ICRA'24	\cited{20}
-	& \me, K. Alexis, \href{https://doi.org/10.1109/ICRA57147.2024.10610572}{\itshape N-MPC for Deep Neural Network-Based Collision Avoidance exploiting Depth Images}
+	& \me, K. Alexis,
+	\href{https://doi.org/10.1109/ICRA57147.2024.10610572}{\itshape N-MPC for Deep Neural Network-Based Collision Avoidance exploiting Depth Images}
 \\
-	IROS'22	\cited{24}
-	& G. Corsini, \me, H. Das, A. Afifi, D. Sidobre, A. Franchi, \href{https://doi.org/10.1109/IROS47612.2022.9981045}{\itshape Nonlinear Model Predictive Control for Human-Robot Handover with Application to the Aerial Case}
+	IROS'22	\cited{26}
+	& G. Corsini, \me, H. Das, A. Afifi, D. Sidobre, A. Franchi,
+	\href{https://doi.org/10.1109/IROS47612.2022.9981045}{\itshape Nonlinear Model Predictive Control for Human-Robot Handover with Application to the Aerial Case}
 \\
 	IROS'22	\cited{6}
-	& \me, A. Franchi, \href{https://doi.org/10.1109/IROS47612.2022.9981643}{\itshape Enforcing Vision-Based Localization using Perception Constrained N-MPC for Multi-Rotor Aerial Vehicles}
+	& \me, A. Franchi,
+	\href{https://doi.org/10.1109/IROS47612.2022.9981643}{\itshape Enforcing Vision-Based Localization using Perception Constrained N-MPC for Multi-Rotor Aerial Vehicles}
 \\
-	AIRPHARO'21	\cited{5} & G. Corsini, \me, AE. Jimenez-Cano, A. Afifi, D. Sidobre, A. Franchi, \href{https://doi.org/10.1109/AIRPHARO52252.2021.9571053}{\itshape A General Control Architecture for Visual Servoing and Physical Interaction Tasks for Fully-actuated Aerial Vehicles}
+	AIRPHARO'21	\cited{5} & G. Corsini, \me, AE. Jimenez-Cano, A. Afifi, D. Sidobre, A. Franchi,
+	\href{https://doi.org/10.1109/AIRPHARO52252.2021.9571053}{\itshape A General Control Architecture for Visual Servoing and Physical Interaction Tasks for Fully-actuated Aerial Vehicles}
 \\
-	ICRA'20	\cited{27}
-	& \me, G. Corsini, D. Bicego, A. Franchi, \href{https://doi.org/10.1109/ICRA40945.2020.9197281}{\itshape Perception-constrained and Motor-level Nonlinear MPC for both Underactuated and Tilted-propeller UAVS}
+	ICRA'20	\cited{28}
+	& \me, G. Corsini, D. Bicego, A. Franchi,
+	\href{https://doi.org/10.1109/ICRA40945.2020.9197281}{\itshape Perception-constrained and Motor-level Nonlinear MPC for both Underactuated and Tilted-propeller UAVS}
 \end{longtable}
 \notes{ICRA and IROS are the two IEEE flagship conferences in Robotics}
 %
@@ -336,7 +354,9 @@
 			\href{https://www.scimagojr.com/journalsearch.php?q=21100900379&tip=sid}{RAL} \par
 		Conferences: RSS, ICRA, IROS, ICUAS, ECC \\
 	\bfseries Associate Editor
-		& IROS (2026)
+		& \href{https://2026.ieee-iros.org/}{IROS (2026)} \\
+	\bfseries \makecell[tl]{Program\\Committee}
+		& \href{https://ecmr2027.gr/}{ECMR (2027)}
 \end{longtable}
 
 
@@ -378,16 +398,16 @@
 \section{Maintained Open Source Software}
 \begin{longtable}{@{}p{\colone}p{\coltwo}@{}}
 	{\bfseries \href{https://ntnu-arl.github.io/unified_autonomy_stack/}{Autonomy Stack}}
-		& Comprehensive Unified Autonomy Stack for Robots -- {\small Developer}\stars{210}
+		& Comprehensive Unified Autonomy Stack for Robots -- {\small Dev., auth. of related paper}\stars{241}
 \\
 	{\bfseries \href{https://ntnu-arl.github.io/sdf-nmpc/}{SDF-NMPC}}
-		& Neural MPC for collision avoidance -- {\small Main developer, first author of related paper}\stars{47}
+		& Neural MPC for collision avoidance -- {\small Main dev., first auth. of related paper}\stars{55}
 \\
 	{\bfseries \href{https://github.com/ntnu-arl/composite_cbf}{CCBF}}
-		& Composite CBF for collision avoidance -- {\small Main developer, author of related paper}\stars{12}
+		& Composite CBF for collision avoidance -- {\small Main dev., auth. of related paper}\stars{14}
 \\
 	{\bfseries \href{https://github.com/ntnu-arl/PX4-CBF}{PX4-CBF}}
-		& Embedded impl. of CCBF in \href{https://px4.io/}{PX4 Autopilot} -- {\small Developer, author of related paper}\stars{10}
+		& Embedded impl. of CCBF in \href{https://px4.io/}{PX4 Autopilot} -- {\small Dev., auth. of related paper}\stars{13}
 \end{longtable}
 
 \notes{
@@ -415,7 +435,7 @@
 		& Camera (calibration, data acquisition), Lidars, IMUs, Custom drones \& electronics
 \end{longtable}
 
-
+\pagebreak
 %----------------------------------------------------------------------------------------
 %	languages
 %----------------------------------------------------------------------------------------
